@@ -1,0 +1,134 @@
+html{
+  margin-left:17px;
+} 
+
+.span2 {
+box-shadow:inset 0px 1px 0px 0px #caefab;
+background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+background-color:#77d42a;
+border-radius:6px;
+border:1px solid #268a16;
+display:inline-block;
+cursor:pointer;
+font-family:Arial;
+font-size:24px;
+font-weight:bold;
+padding:6px 24px;
+text-decoration:none;
+text-shadow:0px 1px 0px #aade7c;
+width: 120px;
+}
+.span2:hover {
+background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+background-color:#5cb811;}
+.span2:active {
+position:relative;
+top:1px;
+}
+
+.preps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepA{
+    display: flex;
+    align-items: center;
+    border-bottom: solid #5cb811 5px;
+}
+
+.prepA:nth-child(1){
+    border-top: solid #5cb811 5px;
+
+}
+.prepFrancais {
+    font-size: 30px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.aa {
+    margin: 0 auto;
+}
+.precision {
+    margin: 0 auto;
+    font-size: 10px;
+}
+.exemples {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: space-between;
+    width: 200px;
+}
+
+  a{
+    text-decoration: none;
+    color:#055dd0;
+    font-size: 12px;
+  }
+
+
+  .ex11 {
+    color: red;
+  }
+
+  .ex12 {
+    color: rgb(4, 210, 4);
+  }
+
+  .ex13 {
+    color: rgb(0, 115, 255);
+  }
+
+  .espagnol {
+    width: 200px;
+    font-size: 20px;
+  }
+
+  /* MENU DE NAVIGATION */
+
+.menu {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.menu1 {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.menu2 {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+li.menu {
+  margin-left: 20px;
+}
+
+li.menu:nth-child(1) {
+  margin-left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #055dd0;
+  font-size: 12px;
+}
+
+ul {
+  padding: 0;
+}

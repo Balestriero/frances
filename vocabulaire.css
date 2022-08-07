@@ -1,0 +1,260 @@
+html {
+  padding-top: 8px;
+}
+
+.span2 {
+  box-shadow: inset 0px 1px 0px 0px #caefab;
+  background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+  background-color: #77d42a;
+  border-radius: 6px;
+  border: 1px solid #268a16;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 4px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #aade7c;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 255px;
+}
+.span2:hover {
+  background: linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+  background-color: #5cb811;
+}
+.span2:active {
+  position: relative;
+  top: 1px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.conj {
+  display: flex;
+
+
+  justify-content: center;
+}
+
+.voc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 400px;
+}
+
+.espagnol {
+  width: 180px;
+  font-size: 14px;
+  color: rgb(26, 97, 250);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.fleche {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(26, 250, 194), rgb(26, 97, 250));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(26, 97, 250), rgb(26, 250, 194));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.temps {
+  margin-top: 60px;
+}
+
+.temps1 {
+display: flex;
+margin: 0 auto;
+}
+
+.temps2 {
+  display: flex;
+  margin: 0 auto;
+  }
+
+.myButton1 {
+  box-shadow: inset 0px 1px 0px 0px #a4e271;
+  background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+  background-color: #89c403;
+  border-radius: 6px;
+  border-top: 4px solid #74b807;
+  border-right: 4px solid #74b807;
+  border-left: 4px solid #74b807;
+  border-bottom: 2px solid #74b807;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528009;
+  text-align: center;
+  align-self: center;
+  width: 167px;
+  height: 167px;
+  line-height: 167px;
+  vertical-align:middle;
+}
+
+.myButton1:hover {
+  background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+  background-color: #77a809;
+}
+.myButton1:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton2 {
+  box-shadow: inset 0px 1px 0px 0px #a4e271;
+  background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+  background-color: #89c403;
+  border-radius: 6px;
+  border-top: 4px solid #74b807;
+  border-right: 4px solid #74b807;
+  border-left: 4px solid #74b807;
+  border-bottom: 2px solid #74b807;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528009;
+  text-align: center;
+  align-self: center;
+  width: 167px;
+  height: 167px;
+  line-height: 167px;
+  vertical-align:middle;
+}
+
+.myButton2:hover {
+  background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+  background-color: #77a809;
+}
+.myButton2:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton3 {
+  box-shadow: inset 0px 1px 0px 0px #a4e271;
+  background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+  background-color: #89c403;
+  border-radius: 6px;
+  border-top: 4px solid #74b807;
+  border-right: 4px solid #74b807;
+  border-left: 4px solid #74b807;
+  border-bottom: 2px solid #74b807;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528009;
+  text-align: center;
+  align-self: center;
+  width: 342px;
+  height: 167px;
+  line-height: 167px;
+  vertical-align:middle;
+  margin-bottom: 50px;
+}
+
+.myButton3:hover {
+  background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+  background-color: #77a809;
+}
+.myButton3:active {
+  position: relative;
+  top: 1px;
+}
+
+body {
+  width: 350px;
+  margin: 0 auto;
+}
+
+/* MENU DE NAVIGATION */
+
+.menu {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.menu1 {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.menu2 {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+li.menu {
+  margin-left: 20px;
+}
+
+li.menu:nth-child(1) {
+  margin-left: 0;
+}
+
+.presente a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #055dd0;
+  font-size: 12px;
+}
+
+ul {
+  padding: 0;
+}

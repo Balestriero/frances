@@ -1,0 +1,163 @@
+.ppal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0394c8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #057fd0;
+  }
+
+  .menu a{
+    text-decoration: none;
+    color:#055dd0;
+    font-size: 12px;
+  }
+  
+  .menu {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 12px;
+    flex-direction: column;
+  }
+
+  .menu1{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .menu2{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  li.menu{
+    margin-left: 20px;
+  }
+  
+  li.menu:nth-child(1){
+    margin-left: 0;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+#et, #beignet2{
+    margin-bottom: 10px;
+  }
+  
+#en, #encore{
+    margin-bottom: 10px;
+  }
+  
+#eau, #bateau{
+    margin-bottom: 10px;
+  }
+  
+#ein, #plein{
+    margin-bottom: 10px;
+  }
+  
+.button {
+    margin-bottom: 3px;
+    width: 40px;
+    height: 30px;
+      box-shadow: 0px 1px 0px 0px #f0f7fa;
+      background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+      background-color:#33bdef;
+      border-radius:6px;
+      border:1px solid #057fd0;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:11px;
+      font-weight:bold;
+      text-decoration:none;
+      text-shadow:0px -1px 0px #5b6178;
+  }
+
+.button2 {
+    margin-bottom: 3px;
+    margin-left: 3px;
+    width: 80px;
+    height: 30px;
+      box-shadow: 0px 1px 0px 0px #f0f7fa;
+      background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+      background-color:#33bdef;
+      border-radius:6px;
+      border:1px solid #057fd0;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:11px;
+      font-weight:bold;
+      text-decoration:none;
+      text-shadow:0px -1px 0px #5b6178;
+  }
+
+.button:hover {
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+      background-color:#019ad2;
+  }
+  
+.flex {
+    display: flex;
+  }
+
+.lettres {
+    display: flex;
+  }
+  
+.lettres2 {
+    margin-left: 5px;
+  }
+  
+h1 {
+    margin: 10px 0 5px 0;
+    font-size: 30px;
+  }
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  
+  .motson {
+    margin-left: 45px;
+  }
+  
+  .motlettres {
+    margin-left: 0;
+  }
+  
+  #titre2 {
+    color: white;
+  }
+  .toustitres{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+  }
+  
+  .titres {
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .sons{
+    display: flex;
+  }
+  .listesons {
+  padding-left: 30px;
+  }

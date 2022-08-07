@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conjunciones coordonantes</title>
+  <link rel="stylesheet" href="conj.css" />
+</head>
+
+<body>
+  <script>
+    function playMais() {
+      let audio = new Audio('audios/mais.mp3')
+      audio.play();
+      console.log("ok");
+    }
+    function playOu2() {
+      let audio = new Audio('audios/ou2.mp3')
+      audio.play();
+      console.log("ok");
+    }
+    function playEt2() {
+      let audio = new Audio('audios/et2.mp3')
+      audio.play();
+      console.log("ok");
+    }
+    function playDonc() {
+      let audio = new Audio('audios/donc.mp3')
+      audio.play();
+      console.log("ok");
+    }
+    function playOr() {
+      let audio = new Audio('audios/or.mp3')
+      audio.play();
+      console.log("ok");
+    }
+    function playNi() {
+      let audio = new Audio('audios/ni.mp3')
+      audio.play();
+      console.log("ok");
+    }
+    function playCar() {
+      let audio = new Audio('audios/car.mp3')
+      audio.play();
+      console.log("ok");
+    }
+  </script>
+
+  <div class="menu">
+    <ul class="menu1">
+      <li class="menu"><a href="index.html">Alfabeto</a></li>
+    </ul>
+    <ul class="menu2">
+      <li class="menu"><a href="conjugaison.html">Conjugación</a></li>
+      <li class="menu"><a href="vocabulaire.html">Vocabulario</a></li>
+    </ul>
+  </div>
+
+  <div class="h1">
+    <h1>Conjunciones<br>Coordonantes</h1>
+  </div>
+  <div class="main">
+    <div class="conj" id="mais">
+      <div class="francais span2" onclick="playMais()">mais</div>
+      <div class="fleche">➡️</div>
+      <div class="espagnol">pero</div>
+    </div>
+    <div class="conj" id="ou">
+      <div class="francais span2" onclick="playOu2()">ou</div>
+      <div class="fleche">➡️</div>
+      <div class="espagnol">o</div>
+    </div>
+    <div class="conj" id="et">
+      <div class="francais span2" onclick="playEt2()">et</div>
+      <div class="fleche">➡️</div>
+      <div class="espagnol">y</div>
+    </div>
+    <div class="conj" id="donc">
+      <div class="francais span2" onclick="playDonc()">donc</div>
+      <div class="fleche">➡️</div>
+      <div class="espagnol">asi que</div>
+    </div>
+    <div class="conj" id="or">
+      <div class="francais span2" onclick="playOr()">or</div>
+      <div class="fleche">➡️</div>
+      <div class="espagnol">sin embargo</div>
+    </div>
+    <div class="conj" id="ni">
+      <div class="francais span2" onclick="playNi()">ni</div>
+      <div class="fleche">➡️</div>
+      <div class="espagnol">ni</div>
+    </div>
+    <div class="conj" id="car">
+      <div class="francais span2" onclick="playCar()">car</div>
+      <div class="fleche">➡️</div>
+      <div class="espagnol">ya que</div>
+    </div>
+  </div>
+</body>
+
+</html>

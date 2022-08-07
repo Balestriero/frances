@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vocabulario</title>
+    <link rel="stylesheet" href="vocabulaire.css" />
+  </head>
+
+  <body>
+    <script>
+    function goToMots() {
+        window.location.href = "mots.html"
+    }
+    function goToVerbes() {
+        window.location.href = "verbes.html"
+    }
+    function goToPrepositions() {
+        window.location.href = "prepositions.html"
+    }
+    function goToConjonctions() {
+        window.location.href = "conjonctions.html"
+    }
+    function goToExpressions() {
+        window.location.href = "expressions.html"
+    }
+</script>
+
+    <div class="menu">
+        <ul class="menu1">
+            <li class="menu"><a href="index.html">Alfabeto</a></li>
+        </ul>
+        <ul class="menu2">
+            <li class="menu"><a href="conjugaison.html">Conjugación</a></li>
+            <li class="menu" style="color:#055dd0"><strong>Vocabulario</strong></li>
+        </ul>
+    </div>
+    <h1>Vocabulario</h1>
+    <div class="temps">
+        <div class="temps1">
+            <div class="myButton1" onclick="goToMots()">PALABRAS</div>
+            <div class="myButton1" onclick="goToVerbes()">VERBOS</div>
+        </div>
+        <div class="temps2">
+            <div class="myButton2" onclick="goToPrepositions()">PREPOSICIONES</div>
+            <div class="myButton2" onclick="goToConjonctions()">CONJUNCIONES</div>
+        </div>
+        <div class="temps3">
+            <div class="myButton3" onclick="goToExpressions()">EXPRESIONES</div>
+        </div>
+    </div>
+</body>
+</html>
